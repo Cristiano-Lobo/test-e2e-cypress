@@ -1,2 +1,3 @@
 node_nodules/
 cypress.env.json
+cypress/videos

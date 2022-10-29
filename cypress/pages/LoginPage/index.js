@@ -14,7 +14,7 @@ class LoginPage {
 
     validatedLoginSuccess(){
         cy.url().should('be.equal', `${Cypress.config('baseUrl')}?controller=my-account` )
-        cy.contains('span', 'Cristiano Lobo').should('be.visible')
+        cy.contains('span', 'cypress test').should('be.visible')
     }
 
     validatedLoginInvalid(message){

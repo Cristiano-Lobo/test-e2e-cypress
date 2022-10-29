@@ -7,7 +7,6 @@ describe('login', () => {
     LoginPage.visitLogin()
       cy.fixture('login').then(function(data){
       this.data = data;
-      cy.log(data.invalidEmail)
     })
    })
   

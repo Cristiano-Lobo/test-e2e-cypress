@@ -12,7 +12,7 @@ describe('login', () => {
   
   it('login com sucesso', () => {
     LoginPage.fillLogin(data.successLogin.email, data.successLogin.password)
-    LoginPage.validatedLoginSuccess()
+    LoginPage.validatedLoginSuccess('test cypress')
   })
 
   // it('login com sucesso', () => {

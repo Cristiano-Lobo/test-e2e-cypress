@@ -12,9 +12,9 @@ class LoginPage {
         cy.get(elSubmit.submit).click()
     }
 
-    validatedLoginSuccess(){
+    validatedLoginSuccess(nameAccount){
         cy.url().should('be.equal', `${Cypress.config('baseUrl')}?controller=my-account` )
-        cy.contains('span', 'cypress test').should('be.visible')
+        cy.contains('span', `${nameAccount}`).should('be.visible')
     }
 
     validatedLoginInvalid(message){

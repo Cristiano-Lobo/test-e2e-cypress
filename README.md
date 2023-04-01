@@ -32,9 +32,7 @@ npm install cypress --save-dev
 Para abrir o Cypress com npm ou yarn:
 ```
 npx cypress open
-
 ou
-
 npx cypress open
 ```
 

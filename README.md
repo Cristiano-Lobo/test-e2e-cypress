@@ -13,7 +13,7 @@
 
 Execute os comandos abaixo para instalar as dependências do projeto e execução dos testes:
 
-Instalando Cypress via npm
+Instalando Cypress via npm:
 ```
 
 cd test-e2e-cypress

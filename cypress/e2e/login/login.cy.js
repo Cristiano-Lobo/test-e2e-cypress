@@ -15,11 +15,6 @@ describe('login', () => {
     LoginPage.validatedLoginSuccess('test cypress')
   })
 
-  // it('login com sucesso', () => {
-  //   LoginPage.fillLogin(Cypress.env('email'), Cypress.env('password'))
-  //   LoginPage.validatedLoginSuccess() 
-  // })
-
   it('login com email inválido', () => {
     LoginPage.fillLogin(data.invalidEmail.email, data.invalidEmail.password)
     LoginPage.validatedLoginInvalid('Invalid email address.')

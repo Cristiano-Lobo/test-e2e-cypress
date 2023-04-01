@@ -19,7 +19,6 @@ Instalando Cypress via npm:
 cd test-e2e-cypress
 npm install
 npm install cypress --save-dev
-
 ```
 
 Instalando Cypress via yarn:
@@ -30,14 +29,12 @@ yarn add cypress --dev
 npm install cypress --save-dev
 ```
 
-## Para abrir o Cypress com npm ou yarn
-
+Para abrir o Cypress com npm ou yarn:
 ```
 npx cypress open
 
 ou
 
 npx cypress open
-
 ```
 

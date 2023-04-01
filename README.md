@@ -43,3 +43,11 @@ ou
 yarn cypress run
 ```
 
+Camada na pirâmide de testes:
+
+- UI Tests
+
+![](layer_test.jpg)
+
+```
+

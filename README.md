@@ -1,4 +1,3 @@
-<img src=".gitlab/logo.png" style="zoom: 25%;" />
 
 # Test e2e com Cypress
 

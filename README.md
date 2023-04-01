@@ -15,14 +15,14 @@ Execute os comandos abaixo para instalar das dependências do projeto e execuç�
 
 ```
 
-Instalando Cypress via npm:
+## Instalando Cypress via npm
 
 cd test-e2e-cypress
 npm install
 npm install cypress --save-dev
 ```
 
-Instalando Cypress via yarn:
+## Instalando Cypress via yarn:
 
 cd test-e2e-cypress
 yarn install
@@ -30,7 +30,7 @@ yarn add cypress --dev
 npm install cypress --save-dev
 ```
 
-Para abrir o Cypress com npm ou yarn
+## Para abrir o Cypress com npm ou yarn
 
 ```
 npx cypress open
@@ -40,5 +40,4 @@ ou
 npx cypress open
 
 ```
-------
 

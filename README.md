@@ -1,6 +1,6 @@
 <img src=".gitlab/logo.png" style="zoom: 25%;" />
 
-# Produtor End-2-End
+# Test e2e com Cypress
 
 ## 🚀 Tecnologias
 

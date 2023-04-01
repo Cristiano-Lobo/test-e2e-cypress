@@ -5,43 +5,41 @@
 ## 🚀 Tecnologias
 
 - [Node.js] - plataforma de desenvolvimento
-- [Cypress] - framework de testes automatizados da Microsoft
-- [Javascript] - linguagem de Javascript
+- [Cypress] - framework de testes automatizados da Microsoft. Versão: 12.9.0
+- [Javascript] - linguagem de programação
 
 ## 👨🏻‍💻 Como executar o projeto
 
 [Node.js](https://nodejs.org/) v16 ou superior para executar.
 
-Para liberar o gerenciador de pacotes Yarn:
-
-```
-corepack enable
-```
-
 Execute os comandos abaixo para instalar das dependências do projeto e execução dos testes:
 
 ```
-cd produtor-e2e
+
+Instalando Cypress via npm:
+
+cd test-e2e-cypress
+npm install
+npm install cypress --save-dev
+```
+
+Instalando Cypress via yarn:
+
+cd test-e2e-cypress
 yarn install
-npx playwright install
-npx playwright test
+yarn add cypress --dev
+npm install cypress --save-dev
 ```
 
-Para executar no modo assistido (não headless)
+Para abrir o Cypress com npm ou yarn
 
 ```
-npx playwright test --headed
+npx cypress open
+
+ou
+
+npx cypress open
+
 ```
-
-Para executar no modo debug
-
-```
-npx playwright test --headed --debug
-```
-
-## 📝 License
-
-Private (Sympla)
-
 ------
 

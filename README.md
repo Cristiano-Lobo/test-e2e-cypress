@@ -1,4 +1,5 @@
 
+![](cypress.webp)
 # Test e2e com Cypress
 
 ## 🚀 Tecnologias

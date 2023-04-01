@@ -36,3 +36,10 @@ ou
 npx cypress open
 ```
 
+Para executar os testes:
+```
+npx cypress run
+ou
+yarn cypress run
+```
+
